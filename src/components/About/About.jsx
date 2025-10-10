@@ -18,7 +18,7 @@ const About = () => {
                     </h1>
                     {/* Name */}
                     <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
-                        Yeasin Ahmed
+                        Yasin Ahmed
                     </h2>
                     {/* Skills Heading with Typing Effect */}
                     <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
@@ -40,13 +40,7 @@ const About = () => {
                     </h3>
                     {/* About Me Paragraph */}
                     <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-                        Accelerate Your Business Growth.
-                        We Craft Impactful Digital Strategies That Supercharge Your Online Presence, Outpace
-                        Competitors, & Transform Audiences Into Loyal, Repeat Customers.
-                        From Shopify Store Builds To Precision-Targeted Facebook/Instagram and Google Ads, YouTube SEO
-                        Mastery, & Pinterest Optimization—We Handle It All With Conversion-tracking Expertise For
-                        Maximum ROAS.
-                        Ready To Dominate?
+                        I Provide Global Full-Stack Digital Marketing and Shopify Store Design Services. My Expertise Lies In Crafting Result-Driven Digital Strategies That Elevate Your Brand's Online Visibility, Help You Dominate Your Market, and Turn Viewers Into a Dedicated Customer Base
                     </p>
                     {/* Resume Button */}
                     <a

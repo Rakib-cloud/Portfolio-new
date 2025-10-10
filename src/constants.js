@@ -6,11 +6,6 @@ import javascriptLogo from './assets/tech_logo/javascript.png';
 import reactjsLogo from './assets/tech_logo/reactjs.png';
 import angularLogo from './assets/tech_logo/angular.png';
 import reduxLogo from './assets/tech_logo/redux.png';
-import nextjsLogo from './assets/tech_logo/nextjs.png';
-import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
-import gsapLogo from './assets/tech_logo/gsap.png';
-import materialuiLogo from './assets/tech_logo/materialui.png';
-import bootstrapLogo from './assets/tech_logo/bootstrap.png';
 import springbootLogo from './assets/tech_logo/springboot.png';
 import nodejsLogo from './assets/tech_logo/nodejs.png';
 import expressjsLogo from './assets/tech_logo/express.png';
@@ -27,10 +22,6 @@ import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
 import postmanLogo from './assets/tech_logo/postman.png';
 import mcLogo from './assets/tech_logo/mc.png';
-import figmaLogo from './assets/tech_logo/figma.png';
-import netlifyLogo from './assets/tech_logo/netlify.png';
-import vercelLogo from './assets/tech_logo/vercel.png';
-import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 
 // Experience Section Logo's
@@ -57,245 +48,328 @@ import removebgLogo from './assets/work_logo/remove_bg.png';
 
 export const SkillsInfo = [
   {
-    title: 'Frontend',
+    title: 'Social Media Marketing & Management',
     skills: [
-      { name: 'HTML', logo: htmlLogo },
-      { name: 'CSS', logo: cssLogo },
-      { name: 'SASS', logo: sassLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'React JS', logo: reactjsLogo },
-      { name: 'Angular', logo: angularLogo },
-      { name: 'Redux', logo: reduxLogo },
-      { name: 'Next JS', logo: nextjsLogo },
-      { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'GSAP', logo: gsapLogo },
-      { name: 'Material UI', logo: materialuiLogo },
-      { name: 'Bootstrap', logo: bootstrapLogo },
+      { name: 'Facebook', logo: htmlLogo },
+      { name: 'Instagram', logo: cssLogo },
+      { name: 'Pinterest', logo: sassLogo },
+      { name: 'LinkedIn', logo: javascriptLogo },
+      { name: 'Twitter', logo: reactjsLogo },
+      { name: 'TikTok', logo: angularLogo },
+      { name: 'Email', logo: reduxLogo },
     ],
   },
   {
-    title: 'Backend',
+    title: 'Search Engine Marketing (SEM)',
     skills: [
-      { name: 'Springboot', logo: springbootLogo },
-      { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
-      { name: 'MySQL', logo: mysqlLogo },
-      { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'Firebase', logo: firebaseLogo },
-      { name: 'PostgreSQL', logo: postgreLogo },
+      { name: 'Google', logo: springbootLogo },
+      { name: 'Bing', logo: nodejsLogo },
+      { name: 'Search', logo: expressjsLogo },
+      { name: 'keyword Research', logo: mysqlLogo },
+      { name: 'Shopping Campaign', logo: mongodbLogo },
+      { name: 'Performance Max', logo: firebaseLogo },
+
     ],
   },
   {
-    title: 'Languages',
+    title: 'Shopify Store Design & Dropshipping',
     skills: [
-      { name: 'C', logo: cLogo },
-      { name: 'C++', logo: cppLogo },
-      { name: 'Java', logo: javaLogo },
-      { name: 'Python', logo: pythonLogo },
-      { name: 'C-Sharp', logo: csharpLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'TypeScript', logo: typescriptLogo },
+      { name: 'Website Design', logo: cLogo },
+      { name: 'Dropshipping Store', logo: cppLogo },
+      { name: 'PageFly', logo: javaLogo },
+      { name: 'Replo', logo: pythonLogo },
+      { name: 'Theme Customize', logo: csharpLogo },
+      { name: 'Analytics & Tracking', logo: javascriptLogo },
+      { name: 'landing page', logo: typescriptLogo },
     ],
   },
   {
-    title: 'Tools',
+    title: 'YouTube Video SEO & Promotion',
     skills: [
-      { name: 'Git', logo: gitLogo },
-      { name: 'GitHub', logo: githubLogo },
-      { name: 'VS Code', logo: vscodeLogo },
-      { name: 'Postman', logo: postmanLogo },
-      { name: 'Compass', logo: mcLogo },
-      { name: 'Vercel', logo: vercelLogo },
-      { name: 'Netlify', logo: netlifyLogo },
-      { name: 'Figma', logo: figmaLogo },
+      { name: 'Video SEO', logo: gitLogo },
+      { name: 'YouTube Ads', logo: githubLogo },
+      { name: 'Thumbnail', logo: vscodeLogo },
+      { name: 'Keyword Research', logo: postmanLogo },
+      { name: 'Promotion Channels', logo: mcLogo },
+    ],
+  },
+  {
+    title: 'GA4, & Conversion Tracking',
+    skills: [
+      { name: 'Conversion Tracking ', logo: gitLogo },
+      { name: 'Facebook Pixel', logo: githubLogo },
+      { name: 'Google Analytics(GA4)', logo: vscodeLogo },
+      { name: 'Tag Manager(GTM)', logo: postmanLogo },
+      { name: 'Pinterest Tracking', logo: mcLogo },
+
+    ],
+  },
+  {
+    title: 'SEO & Website Optimization',
+    skills: [
+      { name: 'Website SEO', logo: gitLogo },
+      { name: 'On Page SEO', logo: githubLogo },
+      { name: 'Technical SEO', logo: vscodeLogo },
+      { name: 'Keyword Research', logo: postmanLogo },
+      { name: 'Meta Tags', logo: mcLogo },
+
     ],
   },
 ];
 
-  export const experiences = [
-    {
-      id: 0,
-      img: webverseLogo,
-      role: "Fullstack Developer",
-      company: "Webverse Digital",
-      date: "April 2024 - Present",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
-      skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Node JS",
-        "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
-      ],
-    },
-    {
-      id: 1,
-      img: agcLogo,
-      role: "Fullstack Engineer",
-      company: "Agumentik Group of Companies",
-      date: "July 2023 - March 2024",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-      skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
-        "HTML",
-        "CSS",
-        "SQL",
-      ],
-    },
-    {
-      id: 2,
-      img: newtonschoolLogo,
-      role: "Frontend Intern",
-      company: "Newton School",
-      date: "September 2021 - August 2022",
-      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-      skills: [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Bootstrap",
-        "Figma",
-        "Material UI",
-      ],
-    },
-  ];
-  
-  export const education = [
-    {
-      id: 0,
-      img: glaLogo,
-      school: "GLA University, Mathura",
-      date: "Sept 2022 - July 2024",
-      grade: "7.81 CGPA",
-      desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
-      degree: "Master of Computer Applications - MCA",
-    },
-    {
-      id: 1,
-      img: bsaLogo,
-      school: "BSA College, Mathura",
-      date: "Sept 2018 - Aug 2021",
-      grade: "73.2%",
-      desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Bachelor of Science - BSC (Computer Science)",
-    },
-    {
-      id: 2,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2017 - March 2018",
-      grade: "78%",
-      desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
-      degree: "CBSE(XII) - PCM with Computer Science",
-    },
-    {
-      id: 3,
-      img: vpsLogo,
-      school: "Vatsalya Public School Govardhan, Mathura",
-      date: "Apr 2015 - March 2016",
-      grade: "87.5%",
-      desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
-      degree: "CBSE(X), Science with Computer Application",
-    },
-  ];
-  
-  export const projects = [
-    {
-      id: 0,
-      title: "GitHub Profile Detective",
-      description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-      webapp: "https://githubprofiledetective.netlify.app/",
-    },
-    {
-      id: 1,
-      title: "CS Prep",
-      description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-      image: csprepLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
-    },
-    {
-      id: 2,
-      title: "Movie Recommendation App",
-      description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-      image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
-    },
-    {
-      id: 3,
-      title: "Email Validator NPM Package",
-      description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-      image: npmLogo,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
-    },
-    {
-      id: 4,
-      title: "Task Reminder Chrome Extension Tool",
-      description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-      image: taskremLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-    },
-    {
-      id: 5,
-      title: "Webverse Digital",
-      description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-      image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
-    },
-    {
-      id: 6,
-      title: "Coding Master",
-      description:
-        "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-      image: cmLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-      github: "https://codingmasterweb.in/",
-      webapp: "https://codingmasterweb.in/",
-    },
-    {
-      id: 7,
-      title: "Image Search App",
-      description:
-        "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-      image: imagesearchLogo,
-      tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Search-App",
-      webapp: "https://imagsearch.netlify.app/",
-    },
-    {
-      id: 8,
-      title: "Image Background Remover",
-      description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-      image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/codingmastr/Image-Background-Remover",
-      webapp: "https://removeyourbg.netlify.app/",
-    },
-  ];  
+
+
+export const experiences = [
+  {
+    id: 0,
+    img: webverseLogo,
+    role: "Digital Marketing Manager",
+    company: "Matching Family Outfits",
+    date: "March 2025 - June 2025",
+    desc: "I Managed The Setup, Execution, And Optimization Of Facebook And Google Ad Campaigns To Drive Sales For The Website. My Work Included Audience Targeting, Ad Content Creation, Budget Optimization, And Performance Analysis. By Consistently Monitoring And Refining Campaigns, I Significantly Improved Sales And Roi. I managed The Setup, Execution, And Optimization Of Facebook and Google Ad Campaigns To Drive Sales For The Website. My Work Included Audience Targeting, Ad Content Creation, Budget Optimization, And Performance Analysis. By Consistently Monitoring And Refining Campaigns, I Significantly Improved Sales And ROI",
+    skills: [
+      "Facebook Ads",
+      "Google Ads",
+      "Campaign Strategy",
+      "E-commerce Marketing",
+      "Conversion Tracking",
+      "Analytics(GA4)",
+    ],
+  },
+
+  {
+    id: 1,
+    img: agcLogo,
+    role: "Shopify Website Development & Branding",
+    company: "DressHouseFormalHire",
+    date: "October 2024 - August 2025",
+    desc: "I Built The Entire Shopify Website For Dresshouseformalhire.com, A Premium Online Dress Rental Store In Australia. In Addition To Store Development, I Manage The Complete Branding And Digital Marketing Strategy, Including SEO, Social Media, And Paid Advertising. My Work Ensures Strong Brand Identity, Customer Engagement, And Consistent Business Growth.",
+    skills: [
+      "Shopify Store Design",
+      "Website Development",
+      "E-commerce Store",
+      "Store Branding",
+      "Google Ads",
+      "Facebook Ads",
+      "Instagram Ads",
+      "Website SEO",
+      "Email Marketing",
+      "Paid Advertising"
+    ],
+  },
+  {
+    id: 2,
+    img: newtonschoolLogo,
+    role: "Social Media Marketing Manager",
+    company: "American International Foods, Inc.",
+    date: "June 2023 - August 2024",
+    desc: "As Social Media Marketing Manager, I Managed And Grew The Company’s Online Presence Across Multiple Platforms. My Responsibilities Included Developing Content Strategies, Running Paid Ad Campaigns, and Engaging With Audiences To Build Brand Awareness. I Focused On Driving Traffic, Generating Leads, And Strengthening The Company’s Digital Footprint.",
+    skills: [
+      "Digital Marketing Strategy ",
+      "Social Media Management",
+      "Facebook Ads",
+      "Google Ads",
+      "Pinterest Marketing"
+    ],
+  },
+  {
+    id: 2,
+    img: newtonschoolLogo,
+    role: "Digital Marketing Intern",
+    company: "Selopia (Software Development Company)",
+    date: "February 2022 - July 2022",
+    desc: "I Worked As A Digital Marketing Intern At Selopia, Where I Gained Experience In Social Media Management and Online Advertising. My Role Involved Creating Content, Optimizing Campaigns, and Supporting Brand Growth Through Digital Strategies. This Internship Enhanced My Practical Marketing Skills and Industry Knowledge.",
+    skills: [
+      "Digital Marketing Strategy ",
+      "Social Media Management",
+      "Facebook Ads",
+      "Google Ads"
+    ],
+  },
+];
+
+export const education = [
+  {
+    id: 0,
+    img: glaLogo,
+    school: "GLA University, Mathura",
+    date: "Sept 2022 - July 2024",
+    grade: "7.81 CGPA",
+    desc: "I have completed my Master's degree (MCA) in Computer Applications from GLA University, Mathura. During my time at GLA, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at GLA University has been instrumental in shaping my technical abilities and professional growth.",
+    degree: "Master of Computer Applications - MCA",
+  },
+  {
+    id: 1,
+    img: bsaLogo,
+    school: "BSA College, Mathura",
+    date: "Sept 2018 - Aug 2021",
+    grade: "73.2%",
+    desc: "I completed my Bachelor's degree in Computer Science (B.Sc.) from BSA College, Mathura. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
+    degree: "Bachelor of Science - BSC (Computer Science)",
+  },
+  {
+    id: 2,
+    img: vpsLogo,
+    school: "Vatsalya Public School Govardhan, Mathura",
+    date: "Apr 2017 - March 2018",
+    grade: "78%",
+    desc: "I completed my class 12 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM) with Computer Science.",
+    degree: "CBSE(XII) - PCM with Computer Science",
+  },
+  {
+    id: 3,
+    img: vpsLogo,
+    school: "Vatsalya Public School Govardhan, Mathura",
+    date: "Apr 2015 - March 2016",
+    grade: "87.5%",
+    desc: "I completed my class 10 education from Vatsalya Public School, Govardhan, under the CBSE board, where I studied Science with Computer.",
+    degree: "CBSE(X), Science with Computer Application",
+  },
+];
+
+export const projects = [
+  {
+    id: 0,
+    title: "Facebook/Instagram",
+    description:
+      "I managed and optimized Meta (Facebook & Instagram) ad campaigns, delivering measurable results for clients. The reports highlighted key metrics such as clicks, conversions, ROAS, and CPA, showcasing strong campaign performance. Through continuous data analysis and strategic adjustments, I maximized ad spend efficiency and delivered consistent results — achieving 4x ROAS, 2x lead flow, and 40% sales growth.",
+    image: githubdetLogo,
+    tags: [
+      "Brand Awareness",
+      "Engagement Ads",
+      "Traffic Ads",
+      "Sales Ads",
+      "Lead Campaign",
+      "Conversion Campaign",
+      "Retargeting",
+    ],
+    github: "",
+    webapp: "",
+  },
+  {
+    id: 1,
+    title: "Google Ads Campaign",
+    description:
+      "Restructured High-impact Facebook Ads For E-commerce, Non-Profits, and Lifestyle Brands, Delivering 3–5x ROAS, 40–60% Engagement Lifts, and 100%+ Growth In Leads/Sales/Followers Via Targeted Funnels, A/B Optimizations, and Retargeting that Scaled Revenue and Built Lasting Brand Loyalty.",
+    image: githubdetLogo,
+    tags: [
+      "Search Ads",
+      "E-Commerce Store",
+      "Display Ads",
+      "Lead Ads",
+      "YouTube Ads",
+      "Performance Max",
+      "Shopping Ads",
+      "Remarketing Strategy",
+    ],
+    github: "",
+    webapp: "",
+  },
+  {
+    id: 2,
+    title: "Shopify Store Design & Dropshipping Solutions",
+    description:
+      "From Custom Shopify Store Design To Complete Dropshipping Automation, I Help Clients Build Scalable E-commerce Brands. My Focus Is On Creating High-converting Stores, Reducing Overhead Costs, And Driving Consistent Sales Growth.",
+    image: githubdetLogo,
+    tags: [
+      "Shopify Store Design",
+      "Dropshipping Setup",
+      "Custom Design",
+      "E-commerce Branding",
+      "Product Research",
+      "SEO-Optimized",
+      "Product Listing",
+    ],
+    github: "",
+    webapp: "",
+  },
+  {
+    id: 3,
+    title: "Social Media Management",
+    description:
+      "I Help Businesses Grow Their Online Presence Through Strategic Social Media Marketing And Management. From Account Setup And Branded Content Creation To Paid Campaigns, Community Engagement, And Analytics-driven Optimization, I Ensure Measurable Growth, Higher Engagement, And Improved Conversions Across Platforms.",
+    image: githubdetLogo,
+    tags: [
+      "Social Media Strategy",
+      "Planning",
+      "Account Setup",
+      "Branding",
+      "Content Creation",
+      "Paid Ads",
+      "Community Management",
+      "Analytics",
+      "Scaling Strategies",
+    ],
+    github: "",
+    webapp: "https://ngital.com/social-media-agency/#",
+  },
+  {
+    id: 4,
+    title: "YouTube Video SEO",
+    description:
+      "I Optimize YouTube Videos and Channels To Boost Views, Subscribers, and Watch Time Through Keyword Research, SEO Titles/Descriptions/Tags, Thumbnails, and Playlists — Helping Creators and Brands Grow Organically And Monetize Effectively.",
+    image: githubdetLogo,
+    tags: [
+      "SEO-Optimized",
+      "Thumbnails",
+      "Video SEO",
+      "Channel SEO",
+      "Subscriber Growth",
+      "Watch Time",
+    ],
+    github: "",
+    webapp: "",
+  },
+  {
+    id: 5,
+    title: "Website SEO Optimization",
+    description:
+      "A Project Focused on Improving Website Visibility, Organic Traffic, and Search Rankings For Clients. Tasks Included Keyword Research, On-page Optimization, Technical SEO Fixes, Site Speed Improvements, And Meta Tag Optimization. The Goal Was To Increase Qualified Traffic, Generate Leads, and Enhance Overall Website Performance.",
+    image: githubdetLogo,
+    tags: [
+      "Website SEO",
+      "On Page SEO",
+      "Technical SEO",
+      "Site Speed",
+      "Keyword Research",
+      "Meta Tags",
+      "Backlink SEO",
+    ],
+    github: "",
+    webapp: "",
+  },
+  {
+    id: 6,
+    title: "Tracking & Conversion Setup",
+    description:
+      "I Set Up and Manage Tracking Across All Major Platforms — Facebook, Google (GA4), Pinterest, Linkedin, and More — To Monitor User Behavior, Measure Conversions, and Optimize Campaigns. Accurate Event Tracking And Analytics Help Clients Make Data-Driven Decisions, Maximize ROI, and Scale Their Digital Marketing Effectively.",
+    image: githubdetLogo,
+    tags: [
+      "Analytics (GA4)",
+      "Meta Pixel",
+      "Google Tracking",
+      "Event Tracking",
+      "Pinterest Tag",
+      "Tracking Issues",
+    ],
+    github: "",
+    webapp: "",
+  },
+  {
+    id: 7,
+    title: "Pinterest Marketing",
+    description:
+      "I Have Worked With Multiple Clients On Pinterest Ads Campaigns, Creating Tailored Strategies For Each Business. Through Targeted Audience Research, Optimized Creatives, And Data-driven Campaign Management, My Clients Have Achieved Significant Results — Boosting Website Traffic, Leads, and Sales Effectively.",
+    image: githubdetLogo,
+    tags: [
+      "Pinterest Ads",
+      "Audience Research",
+      "Promoted Pins",
+      "Conversion Tracking",
+      "Sales Generation",
+      "Pinterest Analytics",
+    ],
+    github: "",
+    webapp: "",
+  },
+];
