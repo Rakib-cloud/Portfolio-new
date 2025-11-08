@@ -1,5 +1,6 @@
 
 import ReactTypingEffect from 'react-typing-effect';
+import { Link } from 'react-router-dom';
 import Tilt from 'react-parallax-tilt';
 import profileImage from '../../assets/profile2.png';
 
@@ -39,22 +40,18 @@ const About = () => {
                         />
                     </h3>
                     {/* About Me Paragraph */}
-                    <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
+                    <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-6 mt-8 leading-relaxed">
                         I Provide Global Full-Stack Digital Marketing and Shopify Store Design Services. My Expertise Lies In Crafting Result-Driven Digital Strategies That Elevate Your Brand's Online Visibility, Help You Dominate Your Market, and Turn Viewers Into a Dedicated Customer Base
                     </p>
-                    {/* Resume Button */}
-                    <a
-                        href="https://drive.google.com/file/d/1h0-70i4iWjOVJ1FceP4L30FppH-jcuMx/view?usp=sharing"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
-                        style={{
-                            background: 'linear-gradient(90deg, #8245ec, #a855f7)',
-                            boxShadow: '0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec',
-                        }}
-                    >
-                        DOWNLOAD CV
-                    </a>
+                    {/* See Details Button */}
+                    <div className="mt-6">
+                        <Link
+                            to="/about"
+                            className="inline-block text-white py-3 px-8 rounded-full text-lg font-bold transition duration-300 transform hover:scale-105 text-center border-2 border-[#8245ec] hover:bg-[#8245ec]/10"
+                        >
+                            SEE DETAILS
+                        </Link>
+                    </div>
 
                 </div>
                 {/* Right Side */}

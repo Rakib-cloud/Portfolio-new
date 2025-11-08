@@ -1,117 +1,91 @@
-// Skills Section Logo's
-import htmlLogo from './assets/tech_logo/html.png';
-import cssLogo from './assets/tech_logo/css.png';
-import sassLogo from './assets/tech_logo/sass.png';
-import javascriptLogo from './assets/tech_logo/javascript.png';
-import reactjsLogo from './assets/tech_logo/reactjs.png';
-import angularLogo from './assets/tech_logo/angular.png';
-import reduxLogo from './assets/tech_logo/redux.png';
-import springbootLogo from './assets/tech_logo/springboot.png';
-import nodejsLogo from './assets/tech_logo/nodejs.png';
-import expressjsLogo from './assets/tech_logo/express.png';
-import mysqlLogo from './assets/tech_logo/mysql.png';
-import mongodbLogo from './assets/tech_logo/mongodb.png';
-import firebaseLogo from './assets/tech_logo/firebase.png';
-import cLogo from './assets/tech_logo/c.png';
-import cppLogo from './assets/tech_logo/cpp.png';
-import javaLogo from './assets/tech_logo/java.png';
-import pythonLogo from './assets/tech_logo/python.png';
-import typescriptLogo from './assets/tech_logo/typescript.png';
-import gitLogo from './assets/tech_logo/git.png';
-import githubLogo from './assets/tech_logo/github.png';
-import vscodeLogo from './assets/tech_logo/vscode.png';
-import postmanLogo from './assets/tech_logo/postman.png';
-import mcLogo from './assets/tech_logo/mc.png';
-import csharpLogo from './assets/tech_logo/csharp.png';
+// Flaticon Icons for Skills
+import { getSkillIcon } from './utils/flaticonIcons';
 
-// Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
-import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
+// Company Logos
+import { getCompanyLogo } from './utils/companyLogos';
 
 // Education Section Logo's
 import glaLogo from './assets/education_logo/gla_logo.png';
 import bsaLogo from './assets/education_logo/bsa_logo.png';
 import vpsLogo from './assets/education_logo/vps_logo.png';
 
-// Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
+// Project Images
+import facebookAdsImage from './assets/project_image/facebook_ads_campaign.jpeg';
+import googleAdsImage from './assets/project_image/google_ads.jpeg';
+import storeDesignImage from './assets/project_image/store_design.jpeg';
+import socialMediaImage from './assets/project_image/social_media_management.jpeg';
+import youtubeSEOImage from './assets/project_image/youtube_video_seo.jpeg';
+import websiteSEOImage from './assets/project_image/website_seo_optimization.jpeg';
+import conversionTrackingImage from './assets/project_image/convertion_tracking.jpeg';
+import pinterestMarketingImage from './assets/project_image/pinterest_marketing.jpeg';
 
 
 export const SkillsInfo = [
   {
     title: 'Social Media Marketing & Management',
     skills: [
-      { name: 'Facebook', logo: htmlLogo },
-      { name: 'Instagram', logo: cssLogo },
-      { name: 'Pinterest', logo: sassLogo },
-      { name: 'LinkedIn', logo: javascriptLogo },
-      { name: 'Twitter', logo: reactjsLogo },
-      { name: 'TikTok', logo: angularLogo },
-      { name: 'Email', logo: reduxLogo },
+      { name: 'Facebook', logo: getSkillIcon('Facebook') },
+      { name: 'Instagram', logo: getSkillIcon('Instagram') },
+      { name: 'Pinterest', logo: getSkillIcon('Pinterest') },
+      { name: 'LinkedIn', logo: getSkillIcon('LinkedIn') },
+      { name: 'Twitter', logo: getSkillIcon('Twitter') },
+      { name: 'TikTok', logo: getSkillIcon('TikTok') },
+      { name: 'Email', logo: getSkillIcon('Email') },
     ],
   },
   {
     title: 'Search Engine Marketing (SEM)',
     skills: [
-      { name: 'Google', logo: springbootLogo },
-      { name: 'Bing', logo: nodejsLogo },
-      { name: 'Search', logo: expressjsLogo },
-      { name: 'keyword Research', logo: mysqlLogo },
-      { name: 'Shopping Campaign', logo: mongodbLogo },
-      { name: 'Performance Max', logo: firebaseLogo },
+      { name: 'Google', logo: getSkillIcon('Google') },
+      { name: 'Bing', logo: getSkillIcon('Bing') },
+      { name: 'Search', logo: getSkillIcon('Search') },
+      { name: 'keyword Research', logo: getSkillIcon('keyword Research') },
+      { name: 'Shopping Campaign', logo: getSkillIcon('Shopping Campaign') },
+      { name: 'Performance Max', logo: getSkillIcon('Performance Max') },
 
     ],
   },
   {
     title: 'Shopify Store Design & Dropshipping',
     skills: [
-      { name: 'Website Design', logo: cLogo },
-      { name: 'Dropshipping Store', logo: cppLogo },
-      { name: 'PageFly', logo: javaLogo },
-      { name: 'Replo', logo: pythonLogo },
-      { name: 'Theme Customize', logo: csharpLogo },
-      { name: 'Analytics & Tracking', logo: javascriptLogo },
-      { name: 'landing page', logo: typescriptLogo },
+      { name: 'Website Design', logo: getSkillIcon('Website Design') },
+      { name: 'Dropshipping Store', logo: getSkillIcon('Dropshipping Store') },
+      { name: 'PageFly', logo: getSkillIcon('PageFly') },
+      { name: 'Replo', logo: getSkillIcon('Replo') },
+      { name: 'Theme Customize', logo: getSkillIcon('Theme Customize') },
+      { name: 'Analytics & Tracking', logo: getSkillIcon('Analytics & Tracking') },
+      { name: 'landing page', logo: getSkillIcon('landing page') },
     ],
   },
   {
     title: 'YouTube Video SEO & Promotion',
     skills: [
-      { name: 'Video SEO', logo: gitLogo },
-      { name: 'YouTube Ads', logo: githubLogo },
-      { name: 'Thumbnail', logo: vscodeLogo },
-      { name: 'Keyword Research', logo: postmanLogo },
-      { name: 'Promotion Channels', logo: mcLogo },
+      { name: 'Video SEO', logo: getSkillIcon('Video SEO') },
+      { name: 'YouTube Ads', logo: getSkillIcon('YouTube Ads') },
+      { name: 'Thumbnail', logo: getSkillIcon('Thumbnail') },
+      { name: 'Keyword Research', logo: getSkillIcon('Keyword Research') },
+      { name: 'Promotion Channels', logo: getSkillIcon('Promotion Channels') },
     ],
   },
   {
     title: 'GA4, & Conversion Tracking',
     skills: [
-      { name: 'Conversion Tracking ', logo: gitLogo },
-      { name: 'Facebook Pixel', logo: githubLogo },
-      { name: 'Google Analytics(GA4)', logo: vscodeLogo },
-      { name: 'Tag Manager(GTM)', logo: postmanLogo },
-      { name: 'Pinterest Tracking', logo: mcLogo },
+      { name: 'Conversion Tracking ', logo: getSkillIcon('Conversion Tracking ') },
+      { name: 'Facebook Pixel', logo: getSkillIcon('Facebook Pixel') },
+      { name: 'Google Analytics(GA4)', logo: getSkillIcon('Google Analytics(GA4)') },
+      { name: 'Tag Manager(GTM)', logo: getSkillIcon('Tag Manager(GTM)') },
+      { name: 'Pinterest Tracking', logo: getSkillIcon('Pinterest Tracking') },
 
     ],
   },
   {
     title: 'SEO & Website Optimization',
     skills: [
-      { name: 'Website SEO', logo: gitLogo },
-      { name: 'On Page SEO', logo: githubLogo },
-      { name: 'Technical SEO', logo: vscodeLogo },
-      { name: 'Keyword Research', logo: postmanLogo },
-      { name: 'Meta Tags', logo: mcLogo },
+      { name: 'Website SEO', logo: getSkillIcon('Website SEO') },
+      { name: 'On Page SEO', logo: getSkillIcon('On Page SEO') },
+      { name: 'Technical SEO', logo: getSkillIcon('Technical SEO') },
+      { name: 'Keyword Research', logo: getSkillIcon('Keyword Research') },
+      { name: 'Meta Tags', logo: getSkillIcon('Meta Tags') },
 
     ],
   },
@@ -122,11 +96,11 @@ export const SkillsInfo = [
 export const experiences = [
   {
     id: 0,
-    img: webverseLogo,
+    img: getCompanyLogo('Matching Family Outfits'),
     role: "Digital Marketing Manager",
     company: "Matching Family Outfits",
     date: "March 2025 - June 2025",
-    desc: "I Managed The Setup, Execution, And Optimization Of Facebook And Google Ad Campaigns To Drive Sales For The Website. My Work Included Audience Targeting, Ad Content Creation, Budget Optimization, And Performance Analysis. By Consistently Monitoring And Refining Campaigns, I Significantly Improved Sales And Roi. I managed The Setup, Execution, And Optimization Of Facebook and Google Ad Campaigns To Drive Sales For The Website. My Work Included Audience Targeting, Ad Content Creation, Budget Optimization, And Performance Analysis. By Consistently Monitoring And Refining Campaigns, I Significantly Improved Sales And ROI",
+    desc: "I Managed The Setup, Execution, And Optimization Of Facebook And Google Ad Campaigns To Drive Sales For The Website. My Work Included Audience Targeting, Ad Content Creation, Budget Optimization, And Performance Analysis. By Consistently Monitoring And Refining Campaigns, I Significantly Improved Sales And ROI.",
     skills: [
       "Facebook Ads",
       "Google Ads",
@@ -139,7 +113,23 @@ export const experiences = [
 
   {
     id: 1,
-    img: agcLogo,
+    img: getCompanyLogo('Lamonaca Group S.R.L. (ODI ET AMO)'),
+    role: "Webmaster & Shopify Store Management",
+    company: "Lamonaca Group S.R.L. (ODI ET AMO)",
+    location: "Italy",
+    date: "October 2025 – Present",
+    desc: "I Manage And Optimize The Company's Shopify Store, Overseeing Product Uploads, Email Marketing, Design Improvements, And App Integrations. I Also Implement Marketing Strategies To Boost Sales And Website Performance.",
+    skills: [
+      "Shopify Store Management",
+      "Email Marketing",
+      "Website Optimization",
+      "E-commerce Marketing",
+      "Product Management"
+    ],
+  },
+  {
+    id: 2,
+    img: getCompanyLogo('DressHouseFormalHire'),
     role: "Shopify Website Development & Branding",
     company: "DressHouseFormalHire",
     date: "October 2024 - August 2025",
@@ -158,8 +148,8 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
-    img: newtonschoolLogo,
+    id: 3,
+    img: getCompanyLogo('American International Foods, Inc.'),
     role: "Social Media Marketing Manager",
     company: "American International Foods, Inc.",
     date: "June 2023 - August 2024",
@@ -173,8 +163,8 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
-    img: newtonschoolLogo,
+    id: 4,
+    img: getCompanyLogo('Selopia (Software Development Company)'),
     role: "Digital Marketing Intern",
     company: "Selopia (Software Development Company)",
     date: "February 2022 - July 2022",
@@ -233,7 +223,7 @@ export const projects = [
     title: "Facebook/Instagram",
     description:
       "I managed and optimized Meta (Facebook & Instagram) ad campaigns, delivering measurable results for clients. The reports highlighted key metrics such as clicks, conversions, ROAS, and CPA, showcasing strong campaign performance. Through continuous data analysis and strategic adjustments, I maximized ad spend efficiency and delivered consistent results — achieving 4x ROAS, 2x lead flow, and 40% sales growth.",
-    image: githubdetLogo,
+    image: facebookAdsImage,
     tags: [
       "Brand Awareness",
       "Engagement Ads",
@@ -251,7 +241,7 @@ export const projects = [
     title: "Google Ads Campaign",
     description:
       "Restructured High-impact Facebook Ads For E-commerce, Non-Profits, and Lifestyle Brands, Delivering 3–5x ROAS, 40–60% Engagement Lifts, and 100%+ Growth In Leads/Sales/Followers Via Targeted Funnels, A/B Optimizations, and Retargeting that Scaled Revenue and Built Lasting Brand Loyalty.",
-    image: githubdetLogo,
+    image: googleAdsImage,
     tags: [
       "Search Ads",
       "E-Commerce Store",
@@ -270,7 +260,7 @@ export const projects = [
     title: "Shopify Store Design & Dropshipping Solutions",
     description:
       "From Custom Shopify Store Design To Complete Dropshipping Automation, I Help Clients Build Scalable E-commerce Brands. My Focus Is On Creating High-converting Stores, Reducing Overhead Costs, And Driving Consistent Sales Growth.",
-    image: githubdetLogo,
+    image: storeDesignImage,
     tags: [
       "Shopify Store Design",
       "Dropshipping Setup",
@@ -288,7 +278,7 @@ export const projects = [
     title: "Social Media Management",
     description:
       "I Help Businesses Grow Their Online Presence Through Strategic Social Media Marketing And Management. From Account Setup And Branded Content Creation To Paid Campaigns, Community Engagement, And Analytics-driven Optimization, I Ensure Measurable Growth, Higher Engagement, And Improved Conversions Across Platforms.",
-    image: githubdetLogo,
+    image: socialMediaImage,
     tags: [
       "Social Media Strategy",
       "Planning",
@@ -308,7 +298,7 @@ export const projects = [
     title: "YouTube Video SEO",
     description:
       "I Optimize YouTube Videos and Channels To Boost Views, Subscribers, and Watch Time Through Keyword Research, SEO Titles/Descriptions/Tags, Thumbnails, and Playlists — Helping Creators and Brands Grow Organically And Monetize Effectively.",
-    image: githubdetLogo,
+    image: youtubeSEOImage,
     tags: [
       "SEO-Optimized",
       "Thumbnails",
@@ -325,7 +315,7 @@ export const projects = [
     title: "Website SEO Optimization",
     description:
       "A Project Focused on Improving Website Visibility, Organic Traffic, and Search Rankings For Clients. Tasks Included Keyword Research, On-page Optimization, Technical SEO Fixes, Site Speed Improvements, And Meta Tag Optimization. The Goal Was To Increase Qualified Traffic, Generate Leads, and Enhance Overall Website Performance.",
-    image: githubdetLogo,
+    image: websiteSEOImage,
     tags: [
       "Website SEO",
       "On Page SEO",
@@ -343,7 +333,7 @@ export const projects = [
     title: "Tracking & Conversion Setup",
     description:
       "I Set Up and Manage Tracking Across All Major Platforms — Facebook, Google (GA4), Pinterest, Linkedin, and More — To Monitor User Behavior, Measure Conversions, and Optimize Campaigns. Accurate Event Tracking And Analytics Help Clients Make Data-Driven Decisions, Maximize ROI, and Scale Their Digital Marketing Effectively.",
-    image: githubdetLogo,
+    image: conversionTrackingImage,
     tags: [
       "Analytics (GA4)",
       "Meta Pixel",
@@ -360,7 +350,7 @@ export const projects = [
     title: "Pinterest Marketing",
     description:
       "I Have Worked With Multiple Clients On Pinterest Ads Campaigns, Creating Tailored Strategies For Each Business. Through Targeted Audience Research, Optimized Creatives, And Data-driven Campaign Management, My Clients Have Achieved Significant Results — Boosting Website Traffic, Leads, and Sales Effectively.",
-    image: githubdetLogo,
+    image: pinterestMarketingImage,
     tags: [
       "Pinterest Ads",
       "Audience Research",

@@ -10,6 +10,20 @@
 
 html {
   scroll-behavior: smooth;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
 }
 
 @layer utilities {
@@ -23,4 +37,73 @@ html {
         clip-path: polygon(0 0, 100% 0, 100% 98%, 75% 96%, 0 100%);
       }
   }
+
+/* Logo Carousel Styles */
+.logo-carousel {
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  background: transparent;
+}
+
+.text-track {
+  display: flex;
+  gap: 30px;
+  width: max-content;
+  white-space: nowrap;
+  align-items: center;
+}
+
+.text-track img {
+  height: 30px;
+  object-fit: contain;
+}
+
+/* Pause on hover */
+.logo-carousel:hover .text-track {
+  animation-play-state: paused !important;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-33.333%); }
+}
+
+/* Brand Carousel Styles */
+.brand-carousel {
+  overflow: hidden;
+  width: 100%;
+  padding: 30px 0;
+  background: transparent;
+}
+
+.brand-track {
+  display: flex;
+  gap: 5px;
+  width: max-content;
+  white-space: nowrap;
+  align-items: center;
+}
+
+.brand-track img {
+  height: 94px;
+  object-fit: contain;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .brand-track img {
+    height: 75px;
+  }
+}
+
+/* Pause on hover */
+.brand-carousel:hover .brand-track {
+  animation-play-state: paused !important;
+}
+
+@keyframes brandMarquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
   

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi";
 import {FaFacebook, FaGithub, FaLinkedin} from "react-icons/fa";
 
@@ -6,6 +7,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("");
   const [isScrolled, setIsScrolled] = useState(false);
+  const location = useLocation();
 
   // Detect scroll and change navbar background
   useEffect(() => {
@@ -22,6 +24,12 @@ const Navbar = () => {
     setActiveSection(sectionId);
     setIsOpen(false);
 
+    // If not on home page, navigate to home first
+    if (location.pathname !== '/') {
+      window.location.href = `/#${sectionId}`;
+      return;
+    }
+
     const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
@@ -32,6 +40,7 @@ const Navbar = () => {
     { id: "about", label: "About" },
     { id: "skills", label: "Skills" },
     { id: "experience", label: "Experience" },
+    { id: "services", label: "Services" },
     { id: "work", label: "Projects" },
     { id: "education", label: "Education" },
   ];
@@ -44,13 +53,13 @@ const Navbar = () => {
     >
       <div className="text-white py-5 flex justify-between items-center">
         {/* Logo */}
-        <div className="text-lg font-semibold cursor-pointer">
+        <Link to="/" className="text-lg font-semibold cursor-pointer">
           <span className="text-[#8245ec]">&lt;</span>
           <span className="text-white">Yeasin</span>
           <span className="text-[#8245ec]">/</span>
           <span className="text-white">Ahmed</span>
           <span className="text-[#8245ec]">&gt;</span>
-        </div>
+        </Link>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-8 text-gray-300">
