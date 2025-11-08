@@ -42,7 +42,6 @@ const Navbar = () => {
     { id: "experience", label: "Experience" },
     { id: "services", label: "Services" },
     { id: "work", label: "Projects" },
-    { id: "education", label: "Education" },
   ];
 
   return (
@@ -55,7 +54,7 @@ const Navbar = () => {
         {/* Logo */}
         <Link to="/" className="text-lg font-semibold cursor-pointer">
           <span className="text-[#8245ec]">&lt;</span>
-          <span className="text-white">Yeasin</span>
+          <span className="text-white">Yasin</span>
           <span className="text-[#8245ec]">/</span>
           <span className="text-white">Ahmed</span>
           <span className="text-[#8245ec]">&gt;</span>

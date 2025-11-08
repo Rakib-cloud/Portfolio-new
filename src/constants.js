@@ -253,7 +253,8 @@ export const projects = [
       "Remarketing Strategy",
     ],
     github: "",
-    webapp: "",
+    webapp: "https://matchingfamilyoutfits.com/",
+    certification: "https://skillshop.credential.net/a0e42364-f62c-4d6d-86a2-682c5ec25dde#acc.muAc5lxR",
   },
   {
     id: 2,
@@ -271,7 +272,17 @@ export const projects = [
       "Product Listing",
     ],
     github: "",
-    webapp: "",
+    webapp: "https://www.inheritco.com/",
+    websites: [
+      {
+        name: "Inherit Co.",
+        url: "https://www.inheritco.com/",
+      },
+      {
+        name: "Matching Family Outfits",
+        url: "https://matchingfamilyoutfits.com/",
+      },
+    ],
   },
   {
     id: 3,

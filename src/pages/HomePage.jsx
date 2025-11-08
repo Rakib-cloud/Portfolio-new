@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import About from "../components/About/About";
 import LogoCarousel from "../components/LogoCarousel/LogoCarousel";
 import Skills from "../components/Skills/Skills";
@@ -14,6 +15,20 @@ import Footer from "../components/Footer/Footer";
 import BlurBlob from '../components/BlurBlob';
 
 const HomePage = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    // Handle hash scrolling when navigating from project details
+    if (location.hash === '#work') {
+      setTimeout(() => {
+        const workSection = document.getElementById('work');
+        if (workSection) {
+          workSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 100);
+    }
+  }, [location]);
+
   return (
     <>
       <BlurBlob position={{ top: '35%', left: '20%' }} size={{ width: '30%', height: '40%' }} />
